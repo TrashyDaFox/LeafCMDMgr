@@ -1,0 +1,37 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Leaf Essentials Command Handler",
+		"description": "Trashydafox so kawaii!",
+		"min_engine_version": [1, 20, 80],
+		"uuid": "cc4e6abf-3826-4f7c-9a06-91fe4f30f6bc",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Script Module",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "5f5a4eec-be22-4d35-b081-bf39af3e511f",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Data Module",
+			"type": "data",
+			"uuid": "cce175c3-c681-447b-ad2d-372ccc2984ab",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0-beta"
+		}
+	],
+	"capabilities": ["script_eval"]
+}
