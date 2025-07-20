@@ -6,7 +6,7 @@
 
 ---
 
-The command manager that will be used primrarily in future versions of leaf essentials. (Probably after v3.1)
+The command manager that will be used primarily in future versions of leaf essentials. (Probably after v3.1)
 
 ```
 ✅ Prerequisites:
